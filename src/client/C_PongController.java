@@ -9,7 +9,7 @@ import common.GameObject;
  */
 public class C_PongController
 {
-  private C_PongModel model
+  private C_PongModel model;
   private C_PongView  view;
   private NetObjectWriter writer; //for the output to server
 
